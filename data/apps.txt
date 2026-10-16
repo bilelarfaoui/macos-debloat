@@ -1,0 +1,9 @@
+# category|app bundle in /Applications|description
+# Only apps that can be deleted normally. System apps are protected by SIP and not listed.
+# Removed apps go to the Trash, and can be downloaded again from the App Store.
+
+apple-creative|GarageBand.app|GarageBand
+apple-creative|iMovie.app|iMovie
+apple-office|Keynote.app|Keynote
+apple-office|Numbers.app|Numbers
+apple-office|Pages.app|Pages

@@ -1,0 +1,10 @@
+# category|launchd label|description
+# Per-user launch agents, disabled with `launchctl disable gui/<uid>/<label>`.
+# Best effort: what exists depends on your macOS version. Missing ones are harmless.
+
+agents|com.apple.rcd|Remote control daemon, the thing that launches Music when you hit play
+agents|com.apple.photoanalysisd|Photos library face and scene analysis
+agents|com.apple.suggestd|Siri suggestions
+agents|com.apple.assistantd|Siri assistant daemon
+agents|com.apple.Siri.agent|Siri user agent
+agents|com.apple.parsecd|Spotlight and Siri suggestions lookups

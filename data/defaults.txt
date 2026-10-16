@@ -1,0 +1,16 @@
+# category|domain|key|type|value|description
+# type is bool, int or string. Settings are written for the current user only.
+
+telemetry|com.apple.AdLib|allowApplePersonalizedAdvertising|bool|false|Turn off personalised Apple ads
+telemetry|com.apple.assistant.support|Search Queries Data Sharing Status|int|2|Opt out of sharing Siri and dictation queries
+telemetry|com.apple.CrashReporter|DialogType|string|none|Stop the crash report dialog popping up
+
+siri|com.apple.assistant.support|Assistant Enabled|bool|false|Turn Siri off
+siri|com.apple.Siri|StatusMenuVisible|bool|false|Hide Siri in the menu bar
+
+annoyances|com.apple.desktopservices|DSDontWriteNetworkStores|bool|true|No .DS_Store files on network drives
+annoyances|com.apple.desktopservices|DSDontWriteUSBStores|bool|true|No .DS_Store files on USB drives
+annoyances|com.apple.dock|show-recents|bool|false|Hide recent apps in the Dock
+annoyances|NSGlobalDomain|NSDocumentSaveNewDocumentsToCloud|bool|false|Save new documents to disk, not iCloud
+annoyances|com.apple.finder|FXEnableExtensionChangeWarning|bool|false|No warning when changing a file extension
+annoyances|com.apple.TimeMachine|DoNotOfferNewDisksForBackup|bool|true|Stop asking to use new disks for Time Machine
