@@ -79,7 +79,3 @@ bash tests/test_stubbed.sh
 ```
 
 The second one runs a full dry run / apply / restore cycle against fake `defaults`, `launchctl`, `/Applications` and Trash.
-
-## License
-
-MIT
